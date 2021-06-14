@@ -1,8 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
 
-	fmt.Println("Hello word ")
+	//var name string = "Moufid"
+	name := "moufid"
+	age := 12
+	fmt.Println("Hello word" + name + " " + strconv.Itoa(age) + "ans")
+
 }
